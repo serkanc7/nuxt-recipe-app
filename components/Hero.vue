@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <img class="hero__img" src="@/assets/imgs/hero.jpg" alt="" />
-    <div class="hero__content">
+    <div class="hero__content container">
       <h1 class="hero__title">Recipe App</h1>
       <a href="#recipes" class="hero__button button">View Recipes</a>
     </div>
@@ -42,7 +42,6 @@ export default {}
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
   }
 
   &__title {
